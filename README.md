@@ -59,10 +59,14 @@ const handleClickEmoji = (emoji) => {
 ### Very simple usage, without any CSS defined
 You will need two things. A textarea (or an input), where emojis will be injected, and a component declaration. A simple example is provided below.
 ```html
-<textarea v-model="input"></textarea>
-<button type="button" @click="emoticonRef.toggleShow()">:)</button>
-<!-- Comments -->
-<Emoticon ref="emoticonRef" @click-emoticon="handleClickEmoji" />
+<template>
+  <textarea v-model="input"></textarea>
+  <button type="button" @click="emoticonRef.toggleShow()">:)</button>
+  <!-- // .... // -->
+  <Emoticon ref="emoticonRef" @click-emoticon="handleClickEmoji" />
+
+  <!-- // .... // -->
+</template>
 ```
 
 ```js
