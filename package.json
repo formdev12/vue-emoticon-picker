@@ -4,18 +4,18 @@
   "description": "Simple Vue 3 emoji picker with unicode characters",
   "main": "src/main.js",
   "type": "module",
-  "homepage": "https://github.com/Dadapas/vue-emoticon-picker#readme",
+  "homepage": "https://github.com/formdev12/vue-emoticon-picker#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["emoticon", "emoji", "vue", "module"],
   "repository": {
-    "url": "git+https://github.com/Dadapas/vue-emoticon-picker.git",
+    "url": "git+https://github.com/formdev12/vue-emoticon-picker.git",
     "type": "git"
   },
   "author": "TOVOHERY Zafimanantsoa Pascal <tovoherypascal@gmail.com>",
   "bugs": {
-    "url": "https://github.com/DCzajkowski/vue-emoji-picker/issues"
+    "url": "https://github.com/formdev12/vue-emoticon-picker/issues"
   },
   "license": "MIT"
 }
